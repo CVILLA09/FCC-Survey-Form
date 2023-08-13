@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+    <title>Crypto Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">What's your favorite crypto?</h1>
+    <p id="description">Today we are finding out what's everyone's favorite crypto to compare popularity between some of them.</p>
+
+  <form id="survey-form">
+    <div class="input-element">
+    <label id="name-label">Name: </label>
+    <input id="name" type="text" placeholder="name" required>
+    </div>
+    <div class="input-element">
+    <label id="email-label">Email: </label>
+    <input id="email" type="email" placeholder="email" required>
+    </div>
+    <div class="input-element">
+    <label id="number-label">Age: </label>
+    <input id="number" type="number" placeholder="age" min="13" max="100" required>
+    </div>
+    <div class="input-element">
+    <label id="select-label">Choose your favorite crypto: </label>
+    <select id="dropdown" required>
+    <option>Select</option>
+    <option>(BTC) Bitcoin</option>
+    <option>(ETH) Ethereum</option>
+    <option>(XRP) Ripple</option>
+    <option>(ADA) Cardano</option>
+    <option>(DOGE) Dogecoin</option>
+    <option>(SOL) Solana</option>
+    <option>(MATIC) Polygon</option>
+    <option>(DOT) Polkadot</option>
+    <option>(SHIB) Shiba Inu</option>
+    <option>(LTC) Litecoin</option>
+    <option>Other</option>
+    </select>
+    </div>
+    <div>
+    <label>Do you own crypto?</label>
+    </div>
+    <div>
+    <label>
+    <input type="radio" name="crypto" value="yes">Yes
+    </label>
+    </div>
+    <div>
+    <label>
+    <input type="radio" name="crypto" value="no">No
+    </label>
+    </div>
+    <div>
+    <label>Which one's your biggest bag?</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="btc">BTC - Bitcoin</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="eth">ETH - Ethereum</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="xrp">XRP - Ripple</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="ada">ADA - Cardano</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="doge">DOGE - Dogecoin</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="sol">SOL - Solana</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="matic">MATIC - Polygon</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="dot">DOT - Polkadot</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="shib">SHIB - Shiba Inu</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="ltc">LTC - Litecoin</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="bags" value="other">Other</label>
+    </div>
+    <div class="input-element">
+    <label>Another one:</label>
+    <textarea></textarea>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+  </form>
