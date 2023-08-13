@@ -1,0 +1,58 @@
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  color: white;
+  font-family: Tahoma;
+}
+
+body {
+  background-color: rgb(127, 127, 255);
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+form {
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: Tahoma;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-element{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: rgb(127, 127, 255);
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  min-width: 100px;
+}
